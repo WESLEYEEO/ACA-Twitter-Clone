@@ -53,7 +53,7 @@ The website was deployed via Netlify. The link can be found here:
 https://stackoverflow.com/questions/14605231/git-merge-branch-into-master
 https://stackoverflow.com/questions/tagged/git-merge?tab=Newest
 
-The first website helped us when we were stuck on how some aspects of the website should be like and the other websites helped with git merge issues.
+The first website helped us when we were stuck on how some aspects of the website should be like and the other websites helped with git merge issues as well.
 
 ### Authors
 Ernest Excel O

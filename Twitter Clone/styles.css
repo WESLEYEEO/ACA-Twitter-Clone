@@ -30,32 +30,6 @@
 }
 
 
-
-/* header nav {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    gap: 0px;
-    margin-right: 120px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 20px 114px;
-}
-
-header nav a:hover {
-    background-color: #eee;
-}
-
-header nav a.active {
-    border-bottom: 2px solid rgb(101, 101, 218);
-} */
-
-
 /* Main Tweets Section */
 .post {
     display: flex;
