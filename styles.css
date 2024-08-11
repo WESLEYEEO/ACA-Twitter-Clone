@@ -1,0 +1,246 @@
+/* General Styling */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #fff;
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+
+}
+
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+/* Left Sidebar */
+.left-side {
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav .material-symbols-outlined, .fa-twitter{
+    padding: 20px;
+}
+
+.nav h2{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.nav .active {
+    font-weight: 900;
+}
+.nav:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.nav.home, .fab{
+    color: var(--twitter-color);
+}
+
+.nav_tweet{
+    width: 100%;
+    background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sidebar{
+    border-right: 1px solid var(--twitter-background);
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-twitter{
+    font-size: 30px;
+}
+
+
+/* Main Tweets Section */
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.center-side {
+    flex: 0.5;
+    border-right: 1px solid #eee;
+    min-width: fit-content;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.center-side::-webkit-scrollbar {
+    display: none;
+}
+/* post-tweet section */
+.center-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+}
+
+.center-header h2:hover {
+    background-color: #eee;
+}
+
+.center-header h2 {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 120px;
+}
+
+.forYou {
+    text-decoration: underline;
+    text-decoration-color: rgb(110, 216, 216);
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+
+.following {
+    color: #645f5f;
+    cursor: pointer;
+}
+.post {
+    padding-bottom: 10px;
+    border-bottom: 8px solid #fff;
+    padding-right: 10px;
+}
+
+.post-input img {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.post form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-input {
+    dlsplay: flex;
+    padding: 20px;
+}
+
+.post-input input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+}
+
+.post-btn {
+    background-color: #1da0f267;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+
+/* tweets */
+
+.posted-tweet {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 40px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.posted-body img {
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.posted-span {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+
+.posted-header-text h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.post-description {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.posted-body {
+    flex: 1;
+    padding: 10px;
+}
+
+.avatar {
+    padding: 20px;
+}
+
+.second-footer {
+    position: relative;
+    bottom: 14px;
+    left: 400px;
+    display: flex;
+    gap: 10px;
+}
