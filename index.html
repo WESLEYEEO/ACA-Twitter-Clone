@@ -3,333 +3,436 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home / X</title>
+    <title>X Homepage</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
+    <div class="layout">
         <!-- left sidebar starts -->
-        <div class="sidebar">
-            <i class="fab fa-twitter"></i>
-        
-            <div class="nav home">
-                <span class="material-symbols-outlined">
-                    family_home
-                </span>
-                <h2 class="active">Home</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    explore
-                </span>
-                <h2>Explore</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    notifications
-                </span>
-                <h2>Notifications</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    mail
-                </span>
-                <h2>Messages</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    bookmark
-                </span>
-                <h2>Bookmarks</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    list_alt
-                </span>
-                <h2>Lists</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    account_circle
-                </span>
-                <h2>Profile</h2>
-            </div>
-        
-            <div class="nav">
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
-                <h2>More</h2>
-            </div>
-        
-            <button class="nav_tweet">Tweet</button>
-        
+        <div class="layout__left sidebar">
+        <i class="fab fa-twitter"></i>
+
+        <div class="nav home">
+            <span class="material-symbols-outlined">
+                family_home
+            </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                explore
+            </span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                notifications
+            </span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                bookmark
+            </span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                list_alt
+            </span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                account_circle
+            </span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="nav">
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <h2>More</h2>
+        </div>
+
+        <button class="nav_tweet">Tweet</button>
         
         </div>
         <!-- left sidebar ends -->
 
-        <!-- Main Tweets Section -->
-        <div class="main center-side">
-            <!-- Post Tweet Section -->
-            <header class="center-header"> 
-                <h2 class="forYou">For You</h2>
-                <h2 class="following">Following</h2>
-            </header>
+        <!-- Main Tweets Section starts-->
+        <div class="layout__main center-side">
+        <!-- Post Tweet Section -->
+        <header class="center-header"> 
+            <h2>Home</h2>
+            <!-- <h2 class="forYou">For You</h2>
+            <h2 class="following">Following</h2> -->
+        </header>
 
-            <section class="post"> 
-                <form>
-                    <div class="post-input">
-                        <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
-                        <input type="text" placeholder="What's happening" />
-                    </div>
-                    <button class="post-btn">Post</button>
-                </form>
-            </section>
-
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
+        <section class="post"> 
+            <form>
+                <div class="post-input">
                     <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                    <input type="text" placeholder="What's happening" />
                 </div>
+                <button class="post-btn">Post</button>
+            </form>
+        </section>
+
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
 
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./img/0001 (1).png" />
 
-            <!-- Tweets -->
-             <section class="posted-tweet">
-                <div class="avatar">
-                    <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
                 </div>
 
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
 
-                <div class="posted-body">
-                    <div class="posted-header">
-                        <div class="posted-header-text">
-                            <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
-                        </div>
-                        <div class="post-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
+        <!-- Tweets -->
+         <section class="posted-tweet">
+            <div class="avatar">
+                <img src="./young-happy-businessman-character-avatar-wearing-business-outfit-isolated-free-vector.jpg" />
+            </div>
+
+
+            <div class="posted-body">
+                <div class="posted-header">
+                    <div class="posted-header-text">
+                        <h3>Lydia Anne <span class="posted-span">@lydiaanne</span></h3>
                     </div>
-                    <img src="./0001 (1).png" />
-
-                    <div class="footer">
-                        <i class="fa-regular fa-comment"></i>
-                        <i class="fa-solid fa-repeat"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-chart-simple"></i>
-                    </div>
-
-                    <div class="second-footer">
-                        <i class="fa-regular fa-bookmark"></i>
-                        <i class="fa-solid fa-chart-line"></i>
+                    <div class="post-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-             </section>
+                <img src="./img/0001 (1).png" />
 
+                <div class="footer">
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-chart-simple"></i>
+                </div>
+
+                <div class="second-footer">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+            </div>
+         </section>
+
+        </div>
+        <!-- Main Tweets Section ends -->
+  
+        <!-- right sidebar starts  -->
+        <div class="layout__right spacing">
+    <div class="widgets">
+        <div class="widgets_search">
+            <div class="widgets-input">
+                <span class="material-symbols-outlined"> search </span>
+                <input type="text" placeholder="Search X" /> 
+            </div> 
+        </div>
            
-
+        <div class="widgets_container" class="uii">
+            <div class="widget_head">Trends for you</div>
+            <span class="material-symbols-outlined">settings</span>
         </div>
 
-        <!-- Right Sidebar -->
-        <div class="main right-side">
-            Right
+        <div class="widgets_container">
+            <div class="widget_highlight"> Space.Trending</div> 
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <div class="widget_main">#Moon</div>
+            <div class="widget_highlight">28k Tweets</div>
         </div>
+       
+        <div class="widgets_container">
+            <div class="widget_highlight">Trending worldwide</div>
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <div class="widget_main">#WorldNews</div>
+            <div class="widget_highlight">125k Tweets</div>
+        </div>
+       
+        <div class="widgets_container">
+            <div class="widget_highlight">Animals. Trending</div>
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <div class="widget_main">#internationalCatDay</div>
+            <div class="widget_highlight"> 108k Tweets</div>
+        </div>
+
+        <div class="widgets_container">
+            <div class="widget_highlight">Trending worldwide</div>
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <div class="widget_main">#GreatestOfAllTime</div>
+            <div class="widget_highlight">100k Tweets</div>
+        </div>
+
+        <div class="widgets_container">
+            <div class="widget_highlight">Trending in USA</div>
+            <span class="material-symbols-outlined">
+                more_horiz
+            </span>
+            <div class="widget_main">#Election2024</div>
+            <div class="widget_highlight">198k Tweets</div>
+        </div>
+ 
+        <div class="widgets_container show_more">
+            show more
+        </div>
+    </div>     
+    
+
+    <div class="follow">
+            <div class="follow_container">
+            <div class="follow_head">Who to follow</div>
+            </div>
+            <div class="follow_container">
+            <img class="follow_author_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PtGGveLpCmykGAseq5uCbp2yVYvnJO47HBrQedaOER0dhb4erGtxdXSiKCvxS9RTFdM&usqp=CAU" alt="logo1">
+            <div class="follow_content">
+                <div>
+                    <div class="follow_name"> Tobenna Chris</div>
+                    <div class="follow_nametag"> @Tochris</div>
+                </div>
+                <div class="follow_button">
+                    Follow
+                </div>
+            </div>
+            </div>
+            <div class="follow_container">
+            <img class="follow_author_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe9e1Dgx13zFcqZ1bmhE_CHGoNck_MnZBizYXQZ_C6TZE6lWUvdJ1WaQOX76bZhAFfV_s&usqp=CAU" alt="logo2">
+            <div class="follow_content">
+                <div>
+                    <div class="follow_name"> May Weather</div>
+                    <div class="follow_nametag"> @Iboxsometimes</div>
+                </div>
+                <div class="follow_button">
+                    Follow
+                </div>
+            </div>
+            </div>
+            <div class="follow_container">
+            <img class="follow_author_logo" src="https://img.freepik.com/premium-vector/letter-z-tech-logo-design-vector-template_586024-210.jpg" height=200 alt="logo3">
+            <div class="follow_content">
+                <div>
+                    <div class="follow_name"> Zee ventures</div>
+                    <div class="follow_nametag"> @zeeventures</div>
+                </div>
+                <div class="follow_button">
+                    Follow
+                </div>
+            </div>
+            </div>
     </div>
-</body>
+      
+        </div>         
+        <!-- right sidebar ends -->
+    </div>
+</body> 
 </html>
+
